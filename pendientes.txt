@@ -1,0 +1,55 @@
+# DATASET
+1. Consolidar dataset de variables climatológicas y cruzarla con la base general.
+2. Evaluar técnicas de transformación de datos para la variable del dengue.
+  - La TIA no funcionó para reducir el peso de los casos de Lima. Ponderar transformación logarítmica.
+   - Clustering geográfico (?)
+   - Pensar mejor las técnicas para el desarrollo final.
+3. Segmentar estudio a los periodos de calor.
+4. Empezar a procesar o solicitar la información de saneamiento
+   Las variables identificadas por Carlos:
+   - Presencia de alcantarillas descubiertas cerca a viviendas
+   - Falta de higiene en hogares
+   -* Ausencia de sistemas adecuados de desagüe, alcantarillas (Hogares que descargan aguas residuales directamente a estanques)
+   - Viviendas proximas a lugares de acopio de basura (En peru es bastante fuerte)
+   - Falta de recolección de basura
+   - Falta de organización de canaletas para lluvia
+   - Uso incorrecto de almacenes de agua
+   -* Sistemas de recolección de basura deficientes (aquí afecta principalmente los acopios de basura que permanecen días sin recogerse)
+   -* Presencia de almacenes de agua desprotegidos (Puede ser por agua potable, para lavar, plantas en la casa, etc)
+   
+   Páginas para sacar información:
+   - https://proyectos.inei.gob.pe/microdatos/ -> pobreza multidimensional -> ENAHO y ENAPRES
+     > POBLACIÓN EN VIVIENDAS CON HACINAMIENTO
+     > POBLACIÓN EN VIVIENDAS CON EL MATERIAL DE LOS PISOS PREDOMINANTEMENTE DE TIERRA
+     > POBLACIÓN URBANA EXPUESTA A ALGÚN TIPO DE DESASTRE
+     > POBLACIÓN SIN AGUA GESTIONADA DE MANERA SEGURA
+     > POBLACIÓN SIN ALCANTARILLADO NI OTRAS FORMAS DE DISPOSICIÓN SANITARIA DE EXCRETAS
+     > POBLACIÓN URBANA SIN ACCESO O INSATISFECHA CON EL SERVICIO DE RECOLECCIÓN DOMICILIARIA DE RESIDUOS SÓLIDOS
+   - https://proyectos.inei.gob.pe/microdatos/ -> ENDES
+     > Demográficas
+     > Vivienda
+   - * -> ENAPRES
+   - openstreetmaps -> https://overpass-turbo.eu/
+     https://wiki.openstreetmap.org/wiki/Map_features#Amenity
+     Waste Management
+     > sanitary_dump_station
+     > recycling
+     > waste_basket
+     > waste_disposal
+     > waste_transfer_station
+
+* Averiguar qué más podemos hacer o de dónde podemos solicitar más información.
+
+
+# PROCESAMIENTOS
+1. Consolidar en '2. Preprocesamiento y Visualización de datos.ipynb' las imágenes y las transformación de datos que hagamos
+2. Urgente mapear las técnicas que usaremos y por qué, para elaborar nuestros códigos en referencia a esto.
+
+
+# PAPER
+1. Ordenar el directorio de imágenes
+2. Observaciones consolidadas de Soledad -> soledad.docx
+
+
+# PPT
+1. Que guíe una narrativa.
