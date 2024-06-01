@@ -1,10 +1,44 @@
+PRIMERA FASE: última recopilación de datos
+ * última var clima (carlos)
+
+ * evaluar transformación de datos -> supervisor: sol
+ * técnicas más sofisticadas y introspectiva para el paper -> supervisor: carlos
+ * paper -> supervisor: bisetti
+
+ * procesamiento de vars saneamiento
+   * openstreetmaps (Bisetti)
+   * ENDES (vivienda y hogar de forma específica) (Sol)
+   * ENAPRES (programas municipales) (Carlos)
+
+SEGUNDA FASE: procesamiento de datos para el paper
+ * Consolidar dataset y segmentar al primer cuatrimestre de cada año
+   * Ingeniería de atributos, escalamientos, reducción de dimensiones, etc
+ * Mejorar el paper
+ * Procesar las técnicas de análisis
+ * Generar gráficos
+ *** Peer-review con Soledad
+
+TERCERA FASE: pulimento
+ * Pulir y terminar paper
+ * Elaborar ppt
+
+--------------------------------
+
+
+
 # DATASET
 1. Consolidar dataset de variables climatológicas y cruzarla con la base general.
+
+
 2. Evaluar técnicas de transformación de datos para la variable del dengue.
-  - La TIA no funcionó para reducir el peso de los casos de Lima. Ponderar transformación logarítmica.
-   - Clustering geográfico (?)
+   - La TIA no funcionó para reducir el peso de los casos de Lima. Ponderar transformación logarítmica.
    - Pensar mejor las técnicas para el desarrollo final.
+  
 3. Segmentar estudio a los periodos de calor.
+  *** Como diciembre queda solo y destruye la integridad anual, podemos segmentar al primer cuatrimestre del año (enero, febrero, marzo y abril)
+
+
+
 4. Empezar a procesar o solicitar la información de saneamiento
    Las variables identificadas por Carlos:
    - Presencia de alcantarillas descubiertas cerca a viviendas
@@ -53,3 +87,8 @@
 
 # PPT
 1. Que guíe una narrativa.
+
+
+
+
+
