@@ -4,4 +4,4 @@ Abstract—Multiple discussions support that atypical weather conditions and poo
 
 Index Terms—dengue, spatio-temporal analysis, Data Mining, agglomerative clustering, SHAP, Peru.
 
-Anexos: https://drive.google.com/drive/folders/1FD-NJL2gmMoSTrGvgJGKzczNJC68d7A7?usp=sharing
+Annexes: https://drive.google.com/drive/folders/1FD-NJL2gmMoSTrGvgJGKzczNJC68d7A7?usp=sharing
